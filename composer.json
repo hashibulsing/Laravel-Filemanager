@@ -1,5 +1,5 @@
 {
-    "name": "Hashibul/laravel-file-manager",
+    "name": "hashibul/laravel-file-manager",
     "description": "File manager for Laravel",
     "keywords": [
         "laravel",
@@ -9,7 +9,7 @@
     "authors": [
         {
             "name": "Hashibul",
-            "email": "Hashibul@gmail.com"
+            "email": "hashibul@gmail.com"
         }
     ],
     "license": "MIT",
