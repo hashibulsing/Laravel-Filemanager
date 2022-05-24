@@ -1,6 +1,6 @@
 <?php
 
-use Singularity\LaravelFileManager\Services\ConfigService\ConfigRepository;
+use Hashibul\LaravelFileManager\Services\ConfigService\ConfigRepository;
 
 $config = resolve(ConfigRepository::class);
 
@@ -17,7 +17,7 @@ if ($config->getAcl()) {
 Route::group([
     'middleware' => $middleware,
     'prefix'     => $config->getRoutePrefix(),
-    'namespace'  => 'Singularity\LaravelFileManager\Controllers',
+    'namespace'  => 'Hashibul\LaravelFileManager\Controllers',
 ], function () {
 
     Route::get('initialize', 'FileManagerController@initialize')

@@ -1,6 +1,6 @@
 <?php
 
-namespace Singularity\LaravelFileManager\Requests;
+namespace Hashibul\LaravelFileManager\Requests;
 
 use Illuminate\Contracts\Validation\Validator;
 use Illuminate\Http\Exceptions\HttpResponseException;

@@ -1,25 +1,25 @@
 <?php
 
-namespace Singularity\LaravelFileManager\Controllers;
+namespace Hashibul\LaravelFileManager\Controllers;
 
-use Singularity\LaravelFileManager\Events\BeforeInitialization;
-use Singularity\LaravelFileManager\Events\Deleting;
-use Singularity\LaravelFileManager\Events\DirectoryCreated;
-use Singularity\LaravelFileManager\Events\DirectoryCreating;
-use Singularity\LaravelFileManager\Events\DiskSelected;
-use Singularity\LaravelFileManager\Events\Download;
-use Singularity\LaravelFileManager\Events\FileCreated;
-use Singularity\LaravelFileManager\Events\FileCreating;
-use Singularity\LaravelFileManager\Events\FilesUploaded;
-use Singularity\LaravelFileManager\Events\FilesUploading;
-use Singularity\LaravelFileManager\Events\FileUpdate;
-use Singularity\LaravelFileManager\Events\Paste;
-use Singularity\LaravelFileManager\Events\Rename;
-use Singularity\LaravelFileManager\Events\Zip as ZipEvent;
-use Singularity\LaravelFileManager\Events\Unzip as UnzipEvent;
-use Singularity\LaravelFileManager\Requests\RequestValidator;
-use Singularity\LaravelFileManager\FileManager;
-use Singularity\LaravelFileManager\Services\Zip;
+use Hashibul\LaravelFileManager\Events\BeforeInitialization;
+use Hashibul\LaravelFileManager\Events\Deleting;
+use Hashibul\LaravelFileManager\Events\DirectoryCreated;
+use Hashibul\LaravelFileManager\Events\DirectoryCreating;
+use Hashibul\LaravelFileManager\Events\DiskSelected;
+use Hashibul\LaravelFileManager\Events\Download;
+use Hashibul\LaravelFileManager\Events\FileCreated;
+use Hashibul\LaravelFileManager\Events\FileCreating;
+use Hashibul\LaravelFileManager\Events\FilesUploaded;
+use Hashibul\LaravelFileManager\Events\FilesUploading;
+use Hashibul\LaravelFileManager\Events\FileUpdate;
+use Hashibul\LaravelFileManager\Events\Paste;
+use Hashibul\LaravelFileManager\Events\Rename;
+use Hashibul\LaravelFileManager\Events\Zip as ZipEvent;
+use Hashibul\LaravelFileManager\Events\Unzip as UnzipEvent;
+use Hashibul\LaravelFileManager\Requests\RequestValidator;
+use Hashibul\LaravelFileManager\FileManager;
+use Hashibul\LaravelFileManager\Services\Zip;
 use Illuminate\Routing\Controller;
 use Illuminate\Http\Request;
 

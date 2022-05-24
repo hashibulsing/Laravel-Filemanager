@@ -1,6 +1,6 @@
 <?php
 
-namespace Singularity\LaravelFileManager\Traits;
+namespace Hashibul\LaravelFileManager\Traits;
 
 use Storage;
 

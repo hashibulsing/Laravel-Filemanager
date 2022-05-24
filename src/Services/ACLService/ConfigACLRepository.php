@@ -1,6 +1,6 @@
 <?php
 
-namespace Singularity\LaravelFileManager\Services\ACLService;
+namespace Hashibul\LaravelFileManager\Services\ACLService;
 
 /**
  * Class ConfigACLRepository

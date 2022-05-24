@@ -1,8 +1,8 @@
 <?php
 
-namespace Singularity\LaravelFileManager\Services\TransferService;
+namespace Hashibul\LaravelFileManager\Services\TransferService;
 
-use Singularity\LaravelFileManager\Traits\PathTrait;
+use Hashibul\LaravelFileManager\Traits\PathTrait;
 use League\Flysystem\MountManager;
 use Storage;
 

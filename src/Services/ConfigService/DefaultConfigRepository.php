@@ -1,11 +1,11 @@
 <?php
 
-namespace Singularity\LaravelFileManager\Services\ConfigService;
+namespace Hashibul\LaravelFileManager\Services\ConfigService;
 
 /**
  * Class DefaultConfigRepository
  *
- * @package Singularity\LaravelFileManager\Services\ConfigService
+ * @package Hashibul\LaravelFileManager\Services\ConfigService
  */
 class DefaultConfigRepository implements ConfigRepository
 {

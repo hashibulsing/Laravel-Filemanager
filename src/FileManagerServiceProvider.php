@@ -1,10 +1,10 @@
 <?php
 
-namespace Singularity\LaravelFileManager;
+namespace Hashibul\LaravelFileManager;
 
-use Singularity\LaravelFileManager\Middleware\FileManagerACL;
-use Singularity\LaravelFileManager\Services\ACLService\ACLRepository;
-use Singularity\LaravelFileManager\Services\ConfigService\ConfigRepository;
+use Hashibul\LaravelFileManager\Middleware\FileManagerACL;
+use Hashibul\LaravelFileManager\Services\ACLService\ACLRepository;
+use Hashibul\LaravelFileManager\Services\ConfigService\ConfigRepository;
 use Illuminate\Support\ServiceProvider;
 
 class FileManagerServiceProvider extends ServiceProvider

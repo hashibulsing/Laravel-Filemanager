@@ -1,8 +1,8 @@
 <?php
 
-namespace Singularity\LaravelFileManager\Services\ACLService;
+namespace Hashibul\LaravelFileManager\Services\ACLService;
 
-use Singularity\LaravelFileManager\Services\ConfigService\ConfigRepository;
+use Hashibul\LaravelFileManager\Services\ConfigService\ConfigRepository;
 use Illuminate\Support\Arr;
 use Cache;
 

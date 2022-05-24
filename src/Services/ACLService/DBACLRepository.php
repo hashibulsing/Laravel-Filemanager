@@ -1,11 +1,11 @@
 <?php
 
-namespace Singularity\LaravelFileManager\Services\ACLService;
+namespace Hashibul\LaravelFileManager\Services\ACLService;
 
 /**
  * Class DBACLRepository
  *
- * @package Singularity\LaravelFileManager\Services\ACLService
+ * @package Hashibul\LaravelFileManager\Services\ACLService
  */
 class DBACLRepository implements ACLRepository
 {

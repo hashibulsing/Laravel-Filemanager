@@ -1,8 +1,8 @@
 <?php
 
-namespace Singularity\LaravelFileManager\Traits;
+namespace Hashibul\LaravelFileManager\Traits;
 
-use Singularity\LaravelFileManager\Services\ACLService\ACL;
+use Hashibul\LaravelFileManager\Services\ACLService\ACL;
 use Illuminate\Support\Arr;
 use Storage;
 

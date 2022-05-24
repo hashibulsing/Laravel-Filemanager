@@ -1,13 +1,13 @@
 <?php
 
-namespace Singularity\LaravelFileManager;
+namespace Hashibul\LaravelFileManager;
 
-use Singularity\LaravelFileManager\Events\Deleted;
-use Singularity\LaravelFileManager\Traits\CheckTrait;
-use Singularity\LaravelFileManager\Traits\ContentTrait;
-use Singularity\LaravelFileManager\Traits\PathTrait;
-use Singularity\LaravelFileManager\Services\TransferService\TransferFactory;
-use Singularity\LaravelFileManager\Services\ConfigService\ConfigRepository;
+use Hashibul\LaravelFileManager\Events\Deleted;
+use Hashibul\LaravelFileManager\Traits\CheckTrait;
+use Hashibul\LaravelFileManager\Traits\ContentTrait;
+use Hashibul\LaravelFileManager\Traits\PathTrait;
+use Hashibul\LaravelFileManager\Services\TransferService\TransferFactory;
+use Hashibul\LaravelFileManager\Services\ConfigService\ConfigRepository;
 use Illuminate\Support\Str;
 use Illuminate\Support\Arr;
 use Storage;

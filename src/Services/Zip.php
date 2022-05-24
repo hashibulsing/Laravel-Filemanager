@@ -1,11 +1,11 @@
 <?php
 
-namespace Singularity\LaravelFileManager\Services;
+namespace Hashibul\LaravelFileManager\Services;
 
-use Singularity\LaravelFileManager\Events\UnzipCreated;
-use Singularity\LaravelFileManager\Events\UnzipFailed;
-use Singularity\LaravelFileManager\Events\ZipCreated;
-use Singularity\LaravelFileManager\Events\ZipFailed;
+use Hashibul\LaravelFileManager\Events\UnzipCreated;
+use Hashibul\LaravelFileManager\Events\UnzipFailed;
+use Hashibul\LaravelFileManager\Events\ZipCreated;
+use Hashibul\LaravelFileManager\Events\ZipFailed;
 use Illuminate\Http\Request;
 use RecursiveIteratorIterator;
 use RecursiveDirectoryIterator;

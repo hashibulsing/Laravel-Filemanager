@@ -1,5 +1,5 @@
 {
-    "name": "singularity/laravel-file-manager",
+    "name": "Hashibul/laravel-file-manager",
     "description": "File manager for Laravel",
     "keywords": [
         "laravel",
@@ -8,8 +8,8 @@
     ],
     "authors": [
         {
-            "name": "Singularity",
-            "email": "singularity@gmail.com"
+            "name": "Hashibul",
+            "email": "Hashibul@gmail.com"
         }
     ],
     "license": "MIT",
@@ -25,13 +25,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Singularity\\LaravelFileManager\\": "src"
+            "Hashibul\\LaravelFileManager\\": "src"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Singularity\\LaravelFileManager\\FileManagerServiceProvider"
+                "Hashibul\\LaravelFileManager\\FileManagerServiceProvider"
             ]
         }
     }

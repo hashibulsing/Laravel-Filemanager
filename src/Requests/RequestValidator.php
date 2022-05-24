@@ -1,8 +1,8 @@
 <?php
 
-namespace Singularity\LaravelFileManager\Requests;
+namespace Hashibul\LaravelFileManager\Requests;
 
-use Singularity\LaravelFileManager\Services\ConfigService\ConfigRepository;
+use Hashibul\LaravelFileManager\Services\ConfigService\ConfigRepository;
 use Illuminate\Foundation\Http\FormRequest;
 use Storage;
 

@@ -1,10 +1,10 @@
 <?php
 
-namespace Singularity\LaravelFileManager\Middleware;
+namespace Hashibul\LaravelFileManager\Middleware;
 
-use Singularity\LaravelFileManager\Services\ACLService\ACL;
-use Singularity\LaravelFileManager\Services\ConfigService\ConfigRepository;
-use Singularity\LaravelFileManager\Traits\PathTrait;
+use Hashibul\LaravelFileManager\Services\ACLService\ACL;
+use Hashibul\LaravelFileManager\Services\ConfigService\ConfigRepository;
+use Hashibul\LaravelFileManager\Traits\PathTrait;
 use Illuminate\Http\Request;
 use Illuminate\Support\Arr;
 use Closure;

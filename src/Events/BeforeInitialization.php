@@ -1,6 +1,6 @@
 <?php
 
-namespace Nagad\LaravelFileManager\Events;
+namespace Hashibul\LaravelFileManager\Events;
 
 class BeforeInitialization
 {

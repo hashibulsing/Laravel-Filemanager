@@ -1,6 +1,6 @@
 <?php
 
-namespace Singularity\LaravelFileManager\Services\TransferService;
+namespace Hashibul\LaravelFileManager\Services\TransferService;
 
 abstract class Transfer
 {
