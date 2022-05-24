@@ -1,7 +1,7 @@
 <?php
 
-use Singularity\LaravelFileManager\Services\ConfigService\DefaultConfigRepository;
-use Singularity\LaravelFileManager\Services\ACLService\ConfigACLRepository;
+use Hashibul\LaravelFileManager\Services\ConfigService\DefaultConfigRepository;
+use Hashibul\LaravelFileManager\Services\ACLService\ConfigACLRepository;
 
 return [
 
